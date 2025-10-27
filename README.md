@@ -24,3 +24,6 @@ Before running the script, make sure you have the following installed:
 ```bash
 sudo apt update
 sudo apt install openjdk-17-jdk -y
+
+## 🧩 2. Install pyspark
+`pip3 install pyspark`
