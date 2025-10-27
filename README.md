@@ -24,6 +24,11 @@ Before running the script, make sure you have the following installed:
 ```bash
 sudo apt update
 sudo apt install openjdk-17-jdk -y
-
+```
 ## 🧩 2. Install pyspark
 `pip3 install pyspark`
+
+## 🧩 3. Run the code
+`spark-submit \
+  --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1 \
+  kafka_reader.py`
